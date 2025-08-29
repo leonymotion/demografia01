@@ -1,0 +1,37 @@
+2022:
+
+> print(pop_hm_2022)
+    Valor     Sexo
+1 4051813   Homens
+2 4068318 Mulheres
+-----------------------------
+> print(razao_sexo2022)
+[1] 99.5943
+------------------------------
+0     1     2     3     4     5     6     7     8     9 
+ 9.67 10.15 10.99 10.31 10.01 10.21 10.00  9.71  9.64  9.30 
+> cat("\nÍndice de Myers:", round(indice_myers, 2), "\n")
+
+Índice de Myers: 3.38
+------------------------------
+Ano   Sexo     idade_mediana populacao_total 2022
+  <chr> <chr>            <dbl>           <dbl>
+1 2022  Homens              29         4051813
+2 2022  Mulheres            30         4068318
+------------------------------
+> print(razao_dependencia_para_2022)
+
+  Ano   Sexo     pop_jovem pop_ativa pop_idosa razao_dep_jovem razao_dep_idosa razao_dep_total
+  <chr> <chr>        <dbl>     <dbl>     <dbl>           <dbl>           <dbl>           <dbl>
+1 2022  Homens     1015392   2757157    279264            36.8            10.1            47.0
+2 2022  Mulheres    975550   2782998    309770            35.1            11.1            46.2
+------------------------------
+> print("Índice de Envelhecimento por Sexo (Pará - Censo 2022):")
+[1] "Índice de Envelhecimento por Sexo (Pará - Censo 2022):"
+> print(indice_envelhecimento_para_2022)
+
+  Ano   Sexo     pop_jovem pop_idosa indice_envelhecimento
+  <chr> <chr>        <dbl>     <dbl>                 <dbl>
+1 2022  Homens     1015392    279264                  27.5
+2 2022  Mulheres    975550    309770                  31.8
+------------------------------

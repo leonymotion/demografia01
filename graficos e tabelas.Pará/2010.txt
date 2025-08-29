@@ -1,0 +1,38 @@
+Censo 2010:
+
+> pop_hm_2010 <- para_idade2010_filtrado |> 
+> print(pop_hm_2010)
+    Valor     Sexo
+1 3821837   Homens
+2 3759214 Mulheres
+---------------------------
+> print(razao_sexo2010)
+
+[1] 101.6659
+------------------------------
+> indice_myers_2010 
+    0     1     2     3     4     5     6     7     8     9 
+ 9.83 10.48 10.70 10.25 10.38 10.39  9.71  9.62  9.40  9.22 
+
+Índice de Myers: 4.42
+----------------------------------
+[1] "Idade Mediana por Sexo (Pará - Censo 2010):"
+
+  Ano   Sexo     idade_mediana populacao_total
+  <chr> <chr>            <dbl>           <dbl>
+1 2010  Homens              24         3821837
+2 2010  Mulheres            24         3759214
+-------------------------------------------------
+> print(razao_dependencia_para_2010)
+
+  Ano   Sexo     pop_jovem pop_ativa pop_idosa razao_dep_jovem razao_dep_idosa razao_dep_total
+  <chr> <chr>        <dbl>     <dbl>     <dbl>           <dbl>           <dbl>           <dbl>
+1 2010  Homens     1198814   2449816    173207            48.9            7.07            56.0
+2 2010  Mulheres   1155587   2416138    187489            47.8            7.76            55.6
+----------------------------------
+[1] "Índice de Envelhecimento por Sexo (Pará - Censo 2010):
+
+  Ano   Sexo     pop_jovem pop_idosa indice_envelhecimento
+  <chr> <chr>        <dbl>     <dbl>                 <dbl>
+1 2010  Homens     1198814    173207                  14.4
+2 2010  Mulheres   1155587    187489                  16.2
